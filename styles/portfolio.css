@@ -6,7 +6,8 @@
 
 .hero {
   background-color: var(--primary-color);
-  padding: 200px 250px 350px;
+  padding: 200px 250px;
+  height: 100vh;
 }
 .hero h2,
 .hero h4 {
@@ -32,6 +33,7 @@
 
 .hero h4 {
   font-size: 35px;
+  line-height: 25px;
 }
 
 .hero strong {
@@ -44,6 +46,7 @@
   font-family: var(--poppins-font);
   font-size: 30px;
   font-weight: 200;
+  line-height: 23px;
   padding: 10px 20px;
   text-decoration: none;
   transition: all 100ms ease-in-out;
@@ -55,12 +58,31 @@
 }
 
 .contact-link {
-  margin: 150px 0;
+  margin: 150px 0 0;
+}
+
+.hero .arrow {
+  animation: 900ms infinite alternate bounce;
+  bottom: 20px;
+  font-size: 28px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate(0, 10px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
 }
 
 @media (max-width: 992px) {
   .hero {
-    padding: 175px 50px 200px;
+    padding: 175px 50px 0;
   }
 
   .hero h2,
@@ -93,8 +115,9 @@
 
 @media (max-width: 400px) {
   .hero {
-    padding: 150px 50px 150px;
+    padding: 150px 50px 0;
   }
+
   .hero h2,
   .hero h4 {
     font-weight: 300;
