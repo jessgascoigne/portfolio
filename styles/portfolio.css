@@ -26,11 +26,16 @@
 .hero h1 {
   font-family: var(--poppins-font);
   font-size: 80px;
-  font-weight: 500;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 .hero h4 {
   font-size: 35px;
+}
+
+.hero strong {
+  font-weight: 600;
 }
 .hero a {
   border: solid 1px #000;
@@ -55,55 +60,59 @@
 
 @media (max-width: 992px) {
   .hero {
-    padding: 75px 50px 100px;
+    padding: 175px 50px 200px;
   }
 
   .hero h2,
   .hero h4 {
-    font-weight: 200;
+    font-weight: 300;
   }
   .hero h2 {
-    font-size: 28px;
+    font-size: 30px;
   }
   .hero h1 {
-    font-size: 56px;
+    font-size: 60px;
   }
   .hero h4 {
-    font-size: 23px;
+    font-size: 25px;
   }
 
   .hero a {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 300;
   }
 
   .hero a:hover {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .contact-link {
-    margin: 75px 0;
+    margin: 90px 0;
   }
 }
 
 @media (max-width: 400px) {
   .hero {
-    padding: 100px 50px 150px;
+    padding: 150px 50px 150px;
   }
   .hero h2,
   .hero h4 {
-    font-weight: 200;
+    font-weight: 300;
   }
   .hero h2 {
-    font-size: 17px;
+    font-size: 25px;
   }
   .hero h1 {
-    font-size: 35px;
+    font-size: 50px;
+    line-height: 45px;
+    margin: 18px 0 25px;
   }
   .hero h4 {
-    font-size: 15px;
+    font-size: 20px;
   }
   .hero a {
     font-size: 15px;
+    font-weight: 300;
   }
 
   .hero a:hover {
@@ -111,6 +120,6 @@
   }
 
   .contact-link {
-    margin: 60px 0;
+    margin: 90px 0;
   }
 }
