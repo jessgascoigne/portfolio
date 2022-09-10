@@ -14,8 +14,8 @@
   font-weight: 100;
 }
 .hero h1,
-h2,
-h4 {
+.hero h2,
+.hero h4 {
   margin: 0;
 }
 
@@ -59,8 +59,8 @@ h4 {
   }
 
   .hero h2,
-  h4 {
-    font-weight: 200px;
+  .hero h4 {
+    font-weight: 200;
   }
   .hero h2 {
     font-size: 28px;
@@ -87,9 +87,12 @@ h4 {
 
 @media (max-width: 400px) {
   .hero {
-    padding: 50px 50px 75px;
+    padding: 100px 50px 150px;
   }
-
+  .hero h2,
+  .hero h4 {
+    font-weight: 200;
+  }
   .hero h2 {
     font-size: 17px;
   }
