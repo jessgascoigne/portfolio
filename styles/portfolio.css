@@ -58,6 +58,10 @@ h4 {
     padding: 75px 50px 100px;
   }
 
+  .hero h2,
+  h4 {
+    font-weight: 200px;
+  }
   .hero h2 {
     font-size: 28px;
   }
