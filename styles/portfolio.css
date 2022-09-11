@@ -1,6 +1,7 @@
 :root {
   --primary-color: #f0dfd7;
   --secondary-color: #b27f72;
+  --tertiary-color: #e1bbb0;
   --poppins-font: "Poppins", sans-serif;
   --montserrat-font: "Montserrat", sans-serif;
 }
@@ -41,7 +42,7 @@
   color: var(--secondary-color);
   font-weight: 600;
 }
-.hero a {
+.hero a.contact-link {
   border: solid 1px var(--secondary-color);
   border-radius: 4px;
   color: var(--secondary-color);
@@ -54,13 +55,13 @@
   transition: all 100ms ease-in-out;
 }
 
-.hero a:hover {
+.hero a.contact-link:hover {
   border: solid 2px var(--secondary-color);
   font-size: 32px;
   font-weight: 400;
 }
 
-.contact-link {
+.hero .contact-link {
   margin: 150px 0 0;
 }
 
@@ -73,6 +74,21 @@
   position: absolute;
   right: 0;
   text-align: center;
+}
+
+.projects {
+  padding: 150px 50px;
+}
+
+.projects .proud-coder {
+  max-width: 400px;
+}
+
+.projects h3 {
+  color: var(--tertiary-color);
+  display: flex;
+  font-size: 70px;
+  font-weight: 500;
 }
 
 @keyframes bounce {
@@ -115,6 +131,13 @@
   .contact-link {
     margin: 90px 0;
   }
+
+  .projects .proud-coder {
+    max-width: 300px;
+  }
+  .projects h3 {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -146,7 +169,18 @@
     font-size: 17px;
   }
 
-  .contact-link {
-    margin: 90px 0;
+  .hero .contact-link {
+    margin: 80px 0;
+  }
+
+  .projects {
+    padding: 75px 50px;
+  }
+
+  .projects .proud-coder {
+    max-width: 200px;
+  }
+  .projects h3 {
+    font-size: 40px;
   }
 }
