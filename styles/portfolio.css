@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #eee7e1;
+  --primary-color: #f0dfd7;
+  --secondary-color: #b27f72;
   --poppins-font: "Poppins", sans-serif;
   --montserrat-font: "Montserrat", sans-serif;
 }
@@ -25,6 +26,7 @@
 }
 
 .hero h1 {
+  color: var(--secondary-color);
   font-family: var(--poppins-font);
   font-size: 80px;
   font-weight: 700;
@@ -33,16 +35,16 @@
 
 .hero h4 {
   font-size: 35px;
-  line-height: 25px;
 }
 
 .hero strong {
+  color: var(--secondary-color);
   font-weight: 600;
 }
 .hero a {
-  border: solid 1px #000;
+  border: solid 1px var(--secondary-color);
   border-radius: 4px;
-  color: #000;
+  color: var(--secondary-color);
   font-family: var(--poppins-font);
   font-size: 30px;
   font-weight: 200;
@@ -53,6 +55,7 @@
 }
 
 .hero a:hover {
+  border: solid 2px var(--secondary-color);
   font-size: 32px;
   font-weight: 400;
 }
@@ -64,6 +67,7 @@
 .hero .arrow {
   animation: 900ms infinite alternate bounce;
   bottom: 20px;
+  color: var(--secondary-color);
   font-size: 28px;
   left: 0;
   position: absolute;
