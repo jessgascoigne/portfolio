@@ -23,33 +23,84 @@
   </head>
   <body>
     <section class="hero">
-      <h2>Hi, my name is</h2>
-      <h1>Jess Gascoigne.</h1>
-      <h4>
-        I am a <strong>front-end developer</strong> based in Kansas City,
-        Missouri.
-      </h4>
-      <div class="contact-link">
-        <a href="#" class="contact-link">Let's chat!</a>
-      </div>
-      <div class="arrow">
-        <a href="index.html#projects">
-          <i class="fa-solid fa-angles-down arrow"></i>
-        </a>
-      </div>
-    </section>
-    <section class="projects" id="projects">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
+            <h2>Hi, my name is</h2>
+            <h1>Jess Gascoigne.</h1>
+            <h4>
+              I am a <strong>front-end developer</strong> based in Kansas City,
+              Missouri.
+            </h4>
+            <div class="contact-link">
+              <a href="#" class="contact-link">Let's chat!</a>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-center hero-image">
             <img
-              src="images/proudcoder.svg"
-              alt="proud coder"
-              class="proud-coder"
+              src="images/programmer.svg"
+              alt="woman working remotely"
+              class="img-fluid woman-working"
             />
           </div>
-          <div class="col-lg-6 align-self-center">
-            <h3 class="">Things I've built</h3>
+        </div>
+        <div class="arrow">
+          <a href="index.html#projects">
+            <i class="fa-solid fa-angles-down arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h3>Things I've built</h3>
+      <div class="container project-list">
+        <div class="row d-flex align-items-center first-project">
+          <div class="col-lg-6">
+            <img
+              src="images/dictionary-desktop.png"
+              alt="dictionary project"
+              class="img-fluid project-image"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h4 class="project-title">Dictionary App</h4>
+            <p class="project-description">
+              This was my first project I built using React. This app provides
+              users with definitions, phonetics, synonyms, and images for any
+              word they would like to search using two separate APIs.
+            </p>
+            <div class="project-link">
+              <a href="https://dictionary.jessgascoigne.com" target="_blank"
+                >Launch Dictionary App</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex align-items-center second-project">
+          <div class="col-lg-6">
+            <h4 class="project-title">Weather App</h4>
+            <p class="project-description">
+              Using vanilla js, this weather app allows users to access weather
+              data for over 200,000 cities. This project uses two APIs, one for
+              current weather conditions and a separate API for the five day
+              forecast.
+            </p>
+            <div class="project-link">
+              <a
+                href="https://vanillaweatherapp.jessgascoigne.com"
+                target="_blank"
+              >
+                Launch Weather App</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-end">
+            <img
+              src="images/weather-desktop.png"
+              alt="weather project"
+              class="img-fluid project-image"
+            />
           </div>
         </div>
       </div>

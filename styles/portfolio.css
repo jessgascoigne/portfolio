@@ -2,13 +2,14 @@
   --primary-color: #f0dfd7;
   --secondary-color: #b27f72;
   --tertiary-color: #e1bbb0;
+  --accent-color: #42914c;
   --poppins-font: "Poppins", sans-serif;
   --montserrat-font: "Montserrat", sans-serif;
 }
 
 .hero {
   background-color: var(--primary-color);
-  padding: 200px 250px;
+  padding: 250px 250px;
   height: 100vh;
 }
 .hero h2,
@@ -23,31 +24,35 @@
 }
 
 .hero h2 {
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .hero h1 {
   color: var(--secondary-color);
   font-family: var(--poppins-font);
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   margin-bottom: 15px;
 }
 
 .hero h4 {
-  font-size: 35px;
+  font-size: 22px;
 }
 
 .hero strong {
   color: var(--secondary-color);
   font-weight: 600;
 }
+
+.hero .woman-working {
+  max-width: 375px;
+}
 .hero a.contact-link {
   border: solid 1px var(--secondary-color);
   border-radius: 4px;
   color: var(--secondary-color);
   font-family: var(--poppins-font);
-  font-size: 30px;
+  font-size: 23px;
   font-weight: 200;
   line-height: 23px;
   padding: 10px 20px;
@@ -57,7 +62,7 @@
 
 .hero a.contact-link:hover {
   border: solid 2px var(--secondary-color);
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 400;
 }
 
@@ -77,18 +82,64 @@
 }
 
 .projects {
-  padding: 150px 50px;
-}
-
-.projects .proud-coder {
-  max-width: 400px;
+  padding: 150px 30px;
 }
 
 .projects h3 {
+  color: var(--secondary-color);
+  font-family: var(--montserrat-font);
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.projects .project-list {
+  margin-top: 150px;
+}
+
+.projects .first-project {
+  margin-bottom: 150px;
+}
+.projects .second-project {
+  margin-top: 150px;
+}
+
+.projects .project-image {
+  border-radius: 4px;
+  max-width: 450px;
+}
+.projects h4 {
   color: var(--tertiary-color);
-  display: flex;
-  font-size: 70px;
+  font-family: var(--poppins-font);
+  font-size: 40px;
   font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.projects p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.projects a {
+  border: 1px solid var(--tertiary-color);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  color: var(--tertiary-color);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.projects a:hover {
+  background: var(--tertiary-color);
+  color: #fff;
+}
+
+.projects .project-link {
+  margin-top: 35px;
 }
 
 @keyframes bounce {
