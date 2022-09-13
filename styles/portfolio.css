@@ -9,7 +9,7 @@
 
 .hero {
   background-color: var(--primary-color);
-  padding: 150px 250px;
+  padding: 150px 150px;
   height: 100vh;
 }
 .hero h2,
@@ -65,7 +65,9 @@
 .hero .contact-link-content {
   margin: 150px 0 0;
 }
-
+.hero .woman-working {
+  width: 350px;
+}
 .hero .arrow {
   animation: 900ms infinite alternate bounce;
   bottom: 20px;
