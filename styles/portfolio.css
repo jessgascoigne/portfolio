@@ -44,7 +44,7 @@
   font-weight: 600;
 }
 
-.hero a.contact-link {
+.hero a.about-link {
   border: solid 1px var(--secondary-color);
   border-radius: 4px;
   color: var(--secondary-color);
@@ -57,12 +57,12 @@
   transition: all 100ms ease-in-out;
 }
 
-.hero a.contact-link:hover {
+.hero a.about-link:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
 }
 
-.hero .contact-link-content {
+.hero .about-link-content {
   margin: 150px 0 0;
 }
 .hero .woman-working {
@@ -324,7 +324,7 @@
     font-size: 17px;
   }
 
-  .hero .contact-link-content {
+  .hero .about-link-content {
     margin: 80px 0;
   }
 
