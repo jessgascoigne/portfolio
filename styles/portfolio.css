@@ -2,9 +2,36 @@
   --primary-color: #f0dfd7;
   --secondary-color: #b27f72;
   --tertiary-color: #e1bbb0;
-  --accent-color: #42914c;
+  --nav-color: rgb(178 127 114 / 90%);
   --poppins-font: "Poppins", sans-serif;
   --montserrat-font: "Montserrat", sans-serif;
+}
+nav {
+  background: var(--nav-color);
+  color: var(--primary-color);
+  backdrop-filter: blur(10px);
+  font-family: var(--poppins-font);
+  font-weight: 500;
+}
+
+nav .container-fluid {
+  margin: 0 150px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color);
+}
+
+.navbar-nav .nav-link {
+  color: var(--tertiary-color);
+}
+nav img {
+  width: 70px;
+}
+
+nav .active,
+nav li:hover {
+  text-decoration: underline;
 }
 
 .hero {
@@ -89,16 +116,16 @@
 }
 
 .abstract-circle-dots {
-  bottom: -180px;
+  bottom: -120px;
   left: auto;
   position: absolute;
   right: 0;
   top: auto;
-  width: 290px;
+  width: 200px;
 }
 
 .projects {
-  padding: 75px 100px;
+  padding: 163px 100px 75px;
 }
 
 .projects h3 {
@@ -172,7 +199,7 @@
 
 .about-img {
   border-radius: 50%;
-  padding: 90px;
+  padding: 80px;
 }
 
 .about-content {
@@ -284,14 +311,14 @@
   margin-bottom: 10px;
 }
 
-.left-top-corner-abstract {
+.portfolio {
+  padding: 163px 125px 75px;
+}
+
+.portfolio .left-top-corner-abstract {
   position: absolute;
   left: 0;
   top: 0;
-}
-
-.portfolio {
-  padding: 75px 125px;
 }
 
 .portfolio h3 {
@@ -316,11 +343,18 @@
 
 .portfolio .card {
   border: 1px solid var(--primary-color);
+  transition: all 200ms ease-in-out;
 }
 
-.portfolio .card .project-image:hover {
-  margin-top: -10px;
-  transition: all 200ms ease-in-out;
+.portfolio .card:hover {
+  transform: translateY(-10px);
+}
+
+.portfolio .project-image {
+  transition: all 150ms ease-in-out;
+}
+.portfolio .project-image:hover {
+  opacity: 0.65;
 }
 
 .portfolio h5,
@@ -374,19 +408,18 @@
 }
 .contact {
   background: var(--primary-color);
-  padding: 75px 100px;
+  padding: 163px 100px 75px;
 }
 
 .contact-wrapper {
   background: #fff;
   border-radius: 8px;
-  padding: 150px 100px;
+  padding: 75px 100px;
 }
 .contact .abstract-circle {
-  left: 0px;
-  width: 220px;
+  left: 25px;
+  width: 150px;
   position: absolute;
-  top: 0px;
 }
 .contact h1 {
   color: var(--secondary-color);
@@ -403,7 +436,7 @@
   font-weight: 400;
   margin-top: 50px;
 }
-.contact a {
+.contact .contact-wrapper a {
   color: var(--secondary-color);
   font-family: var(--poppins-font);
   font-size: 20px;
