@@ -187,7 +187,7 @@ nav li:hover {
 }
 
 .about {
-  padding: 75px 125px;
+  padding: 163px 125px 75px;
 }
 .about .row {
   margin: 0;
@@ -203,7 +203,7 @@ nav li:hover {
 }
 
 .about-content {
-  padding: 60px;
+  padding: 30px;
 }
 
 .about-me-content {
@@ -221,7 +221,7 @@ nav li:hover {
 .about p {
   font-family: var(--poppins-font);
   font-size: 17px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .about .smaller-text {
@@ -230,7 +230,7 @@ nav li:hover {
   letter-spacing: 2.5px;
 }
 .about .contact-portfolio-links {
-  padding-bottom: 60px;
+  padding-bottom: 25px;
 }
 .about a.contact-link {
   border: solid 1px var(--secondary-color);
