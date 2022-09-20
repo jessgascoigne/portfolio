@@ -366,12 +366,12 @@ footer .social-link:hover {
   font-size: 20px;
   padding: 10px 20px;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
 }
 
 .primary-link,
 .secondary-link {
   font-weight: 400;
-  transition: all 100ms ease-in-out;
 }
 
 .primary-link {
@@ -396,7 +396,6 @@ footer .social-link:hover {
   border: 1px solid var(--tertiary-color);
   color: var(--tertiary-color);
   font-weight: 500;
-  transition: all 200ms ease-in-out;
 }
 
 .tertiary-link:hover {
