@@ -169,6 +169,11 @@ footer h4 {
   color: var(--primary-color);
 }
 
+footer img {
+  width: 350px;
+  margin: 50px 0 75px;
+}
+
 footer .social-link {
   background: var(--secondary-color);
   border: 1px solid var(--primary-color);
