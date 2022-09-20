@@ -22,7 +22,7 @@
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
-  <body>
+  <body class="about">
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
@@ -64,9 +64,9 @@
         </div>
       </div>
     </nav>
-    <section class="about">
+    <section class="about-me">
       <div class="row">
-        <div class="col-lg-5 d-flex align-items-center about-img-section">
+        <div class="col-lg-5 d-flex align-items-center about-img-wrapper">
           <div>
             <img
               src="images/me.JPG"
@@ -75,105 +75,108 @@
             />
           </div>
         </div>
-        <div class="col-lg-7 about-content">
-          <h3>About me</h3>
-          <div class="about-me-content">
-            <p>Hello! 👋🏼 Thanks for stopping by!</p>
+        <div class="col-lg-7 d-flex align-items-center">
+          <div>
+            <h3>About me</h3>
+            <div class="about-me-content-wrapper">
+              <p>Hello! 👋🏼 Thanks for stopping by!</p>
 
-            <p>
-              My name is Jess Gascoigne
-              <span class="smaller-text">(gas-coin)</span>. I have spent the
-              last six and a half years in the finance industry as a financial
-              control manager for a mutual fund company. While working in the
-              finance industry, I dabbled with SQL which sparked my interest in
-              coding! I began learning to code through SheCodes and continue to
-              expand my knowledge through Udemy.
-            </p>
+              <p>
+                My name is Jess Gascoigne
+                <span class="smaller-text">(gas-coin)</span>. I have spent the
+                last six and a half years in the finance industry as a financial
+                control manager for a mutual fund company. While working in the
+                finance industry, I dabbled with SQL which sparked my interest
+                in coding! I began learning to code through SheCodes and
+                continue to expand my knowledge through Udemy.
+              </p>
 
-            <p>
-              In my free time, I enjoy working out at Orangetheory, reading,
-              spending time outdoors with my golden retriever, and exploring
-              local coffee shops with my husband.
-            </p>
-            <p>
-              I'm currently seeking a full-time remote or hybrid position in
-              front-end development.
-            </p>
-          </div>
-          <div class="row contact-portfolio-links">
-            <div class="col-md-6 d-flex justify-content-center">
-              <a href="contact.html" class="contact-link">Let's chat!</a>
+              <p>
+                In my free time, I enjoy working out at Orangetheory, reading,
+                spending time outdoors with my golden retriever, and exploring
+                local coffee shops with my husband.
+              </p>
+              <p>
+                I'm currently seeking a full-time remote or hybrid position in
+                front-end development.
+              </p>
             </div>
-            <div class="col-md-6 d-flex justify-content-center">
-              <a href="portfolio.html" class="portfolio-link">View portfolio</a>
+            <div class="row contact-portfolio-links">
+              <div class="col-md-6 d-flex justify-content-center">
+                <a href="contact.html" class="primary-link">Let's chat!</a>
+              </div>
+              <div class="col-md-6 d-flex justify-content-center">
+                <a href="portfolio.html" class="secondary-link"
+                  >View portfolio</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-
       <section class="skills">
-        <h3 class="tech-heading mb-4">Skills</h3>
+        <h3 class="text-start">Skills</h3>
         <div class="container">
           <div class="row text-center">
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-brands fa-react"></i>
               <p>REACT</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-brands fa-square-js"></i>
               <p>JavaScript</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-brands fa-html5"></i>
               <p>HTML5</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-brands fa-css3-alt"></i>
               <p>CSS3</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-brands fa-bootstrap"></i>
               <p>Bootstrap</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-solid fa-database"></i>
               <p>PostgreSQL</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-brands fa-github"></i>
               <p>Github</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-brands fa-google"></i>
               <p>SEO</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-solid fa-globe"></i>
               <p>Netlify</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-solid fa-laptop-code"></i>
               <p>VS Code</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-brands fa-codepen"></i>
               <p>CodePen</p>
             </div>
-            <div class="col-lg-2 skill-icons">
+            <div class="col-lg-2">
               <i class="fa-brands fa-figma"></i>
               <p>Figma</p>
             </div>
           </div>
-          <img
-            src="images/abstract-lines.png"
-            alt="abstract lines"
-            class="abstract-lines"
-          />
         </div>
+        <img
+          src="images/abstract-lines.png"
+          alt="abstract lines"
+          class="abstract-lines"
+        />
       </section>
       <section class="education">
-        <h3 class="education-heading">Education</h3>
-        <div class="row education-content">
+        <h3 class="text-start">Education</h3>
+        <div class="row">
           <p>
             <i class="fa-solid fa-graduation-cap"></i>
             Kansas State University: B.S. in Accounting & Finance, minor in
@@ -210,7 +213,7 @@
           </div>
           <div class="col-lg-6">
             <div class="d-flex justify-content-center">
-              <a href="contact.html" class="contact-link">Contact me</a>
+              <a href="contact.html" class="secondary-link">Contact me</a>
             </div>
           </div>
         </div>

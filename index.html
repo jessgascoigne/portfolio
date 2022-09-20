@@ -22,7 +22,7 @@
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
-  <body>
+  <body class="home">
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
@@ -65,32 +65,30 @@
       </div>
     </nav>
     <section class="hero">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2>Hi, my name is</h2>
-            <h1>Jess Gascoigne.</h1>
-            <h4>
-              I am a <strong>front-end developer</strong> based in Kansas City,
-              Missouri.
-            </h4>
-            <div class="about-link-content">
-              <a href="about.html" class="about-link">About me</a>
-            </div>
-          </div>
-          <div class="col-lg-6 d-flex justify-content-center hero-image">
-            <img
-              src="images/programmer.svg"
-              alt="woman working remotely"
-              class="img-fluid woman-working"
-            />
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Hi, my name is</h2>
+          <h1>Jess Gascoigne.</h1>
+          <h2>
+            I am a <strong>front-end developer</strong> based in Kansas City,
+            Missouri.
+          </h2>
+          <div class="about-link-wrapper">
+            <a href="about.html" class="primary-link">About me</a>
           </div>
         </div>
-        <div class="arrow">
-          <a href="index.html#projects">
-            <i class="fa-solid fa-angles-down arrow"></i>
-          </a>
+        <div class="col-lg-6 d-flex justify-content-center">
+          <img
+            src="images/programmer.svg"
+            alt="woman working"
+            class="img-fluid"
+          />
         </div>
+      </div>
+      <div class="arrow">
+        <a href="index.html#projects">
+          <i class="fa-solid fa-angles-down arrow"></i>
+        </a>
       </div>
     </section>
     <img
@@ -100,8 +98,8 @@
     />
     <section class="projects" id="projects">
       <h3>Things I've built</h3>
-      <div class="container project-list">
-        <div class="row d-flex align-items-center first-project">
+      <div class="container">
+        <div class="row d-flex align-items-center project-wrapper">
           <div class="col-lg-6">
             <img
               src="images/dictionary-desktop.png"
@@ -110,8 +108,8 @@
             />
           </div>
           <div class="col-lg-6">
-            <h4 class="project-title">Dictionary App</h4>
-            <p class="project-description">
+            <h4>Dictionary App</h4>
+            <p>
               This was my first project I built using React. This app provides
               users with definitions, phonetics, synonyms, and images for any
               word they would like to search using two separate APIs.
@@ -120,17 +118,17 @@
               <a
                 href="https://dictionary.jessgascoigne.com"
                 target="_blank"
-                class="project-link"
+                class="tertiary-link"
                 >Launch Dictionary App</a
               >
             </div>
           </div>
         </div>
 
-        <div class="row d-flex align-items-center second-project">
+        <div class="row d-flex align-items-center project-wrapper">
           <div class="col-lg-6">
-            <h4 class="project-title">Weather App</h4>
-            <p class="project-description">
+            <h4>Weather App</h4>
+            <p>
               Using vanilla js, this weather app allows users to access weather
               data for over 200,000 cities. This project uses two APIs, one for
               current weather conditions and a separate API for the five day
@@ -140,7 +138,7 @@
               <a
                 href="https://vanillaweatherapp.jessgascoigne.com"
                 target="_blank"
-                class="project-link"
+                class="tertiary-link"
               >
                 Launch Weather App</a
               >
@@ -154,7 +152,7 @@
             />
           </div>
         </div>
-        <div class="row d-flex align-items-center third-project">
+        <div class="row d-flex align-items-center project-wrapper">
           <div class="col-lg-6">
             <img
               src="images/portfolio-desktop.png"
@@ -163,8 +161,8 @@
             />
           </div>
           <div class="col-lg-6">
-            <h4 class="project-title">Portfolio</h4>
-            <p class="project-description">
+            <h4>Portfolio</h4>
+            <p>
               This was my first fully responsive web page built using Bootstrap.
               This site is accessible on desktop and mobile viewports.
             </p>
@@ -172,7 +170,7 @@
               <a
                 href="https://www.jessgascoigne.com"
                 target="_blank"
-                class="project-link"
+                class="tertiary-link"
                 >Launch Portfolio</a
               >
             </div>
@@ -188,7 +186,7 @@
           </div>
           <div class="col-lg-6">
             <div class="d-flex justify-content-center">
-              <a href="contact.html" class="contact-link">Contact me</a>
+              <a href="contact.html" class="secondary-link">Contact me</a>
             </div>
           </div>
         </div>
