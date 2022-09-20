@@ -170,8 +170,8 @@ footer h4 {
 }
 
 footer img {
-  width: 350px;
-  margin: 50px 0 75px;
+  width: 275px;
+  margin: 30px 0 50px;
 }
 
 footer .social-link {
@@ -195,6 +195,11 @@ footer .social-link:hover {
 }
 
 /*ABOUT*/
+
+.about-me {
+  margin-top: -10px;
+}
+
 .about-me .row {
   margin: 0;
 }
@@ -206,6 +211,9 @@ footer .social-link:hover {
 .about-me .about-img {
   border-radius: 50%;
   padding: 90px;
+}
+.about-me h3 {
+  margin-top: 30px;
 }
 
 .about-me .about-me-content-wrapper {
@@ -222,6 +230,9 @@ footer .social-link:hover {
   letter-spacing: 2.5px;
 }
 
+.about-me .contact-portfolio-links {
+  margin-bottom: 30px;
+}
 .about-me a.secondary-link:hover {
   background: none;
   border: 1px solid var(--secondary-color);
@@ -259,6 +270,7 @@ footer .social-link:hover {
 }
 
 /*PORTFOLIO*/
+
 .portfolio .left-top-corner-abstract {
   position: absolute;
   left: 0;
