@@ -379,6 +379,7 @@ footer .social-link:hover {
 .portfolio ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 .portfolio li {
   border: 1px solid var(--secondary-color);
@@ -415,12 +416,10 @@ footer .social-link:hover {
   border-radius: 8px;
   padding: 75px 100px;
 }
-.contact-me .abstract-circle {
-  left: 0;
-  width: 150px;
-  position: absolute;
-}
 
+.contact h1 {
+  font-size: 40px;
+}
 .contact h4 {
   font-size: 25px;
   font-weight: 400;
@@ -439,6 +438,12 @@ footer .social-link:hover {
   color: var(--tertiary-color);
 }
 
+.contact-me .abstract-circle {
+  left: 0;
+  width: 150px;
+  position: absolute;
+}
+
 @media (max-width: 992px) {
   section {
     padding: 40px;
@@ -448,6 +453,12 @@ footer .social-link:hover {
     margin-top: 30px;
   }
 
+  .home .project-wrapper {
+    margin: 75px 0 25px;
+  }
+  .home .projects {
+    text-align: center;
+  }
   .home .row-reverse {
     flex-direction: row;
   }
@@ -455,11 +466,9 @@ footer .social-link:hover {
     display: flex;
     justify-content: center;
   }
-  .home .projects {
-    text-align: center;
-  }
+
   footer {
-    padding: 20px 0 50px;
+    padding: 20px 0 30px;
   }
 
   footer h4 {
@@ -477,8 +486,8 @@ footer .social-link:hover {
   }
 
   .skills .grid {
-    grid-template-columns: repeat(auto-fit, 100px);
-    grid-gap: 50px 75px;
+    grid-template-columns: repeat(auto-fit, 80px);
+    grid-gap: 30px;
   }
 
   .skills i {
@@ -490,6 +499,15 @@ footer .social-link:hover {
   }
   .skills .abstract-lines {
     display: none;
+  }
+  .portfolio .left-top-corner-abstract {
+    display: none;
+  }
+  .portfolio {
+    padding: 70px 0;
+  }
+  .contact h1 {
+    margin: 30px 0 15px;
   }
 }
 @media (max-width: 768px) {
@@ -508,10 +526,13 @@ footer .social-link:hover {
   }
   h3 {
     font-size: 32px;
-    margin: 70px 0 50px;
+    margin: 70px 0 30px;
   }
   h4 {
     font-size: 28px;
+  }
+  h5 {
+    font-size: 25px;
   }
   p {
     font-size: 16px;
@@ -545,9 +566,6 @@ footer .social-link:hover {
   .home .projects {
     margin-bottom: 50px;
   }
-  .home .project-wrapper {
-    margin-top: 75px;
-  }
 
   footer img {
     width: 210px;
@@ -565,11 +583,17 @@ footer .social-link:hover {
   .about-me .about-me-content-wrapper {
     margin: 0;
   }
-
+  .about-me .contact-portfolio-link-wrapper {
+    margin-bottom: 30px;
+  }
   .about-me .contact-portfolio-link {
     margin: 20px 0;
   }
 
+  .about-me .primary-link,
+  .about-me .secondary-link {
+    font-size: 15px;
+  }
   .skills h3,
   .education h3 {
     display: flex;
@@ -578,5 +602,31 @@ footer .social-link:hover {
   .education p {
     font-size: 15px;
     margin-bottom: 40px;
+  }
+
+  .portfolio .project-grid {
+    margin-top: 0;
+  }
+
+  .portfolio .grid {
+    grid-template-columns: repeat(auto-fit, 325px);
+    grid-gap: 50px 75px;
+  }
+  .contact h1 {
+    font-size: 30px;
+  }
+
+  .contact-me {
+    padding: 120px 20px 60px;
+  }
+  .contact-wrapper {
+    padding: 20px;
+  }
+  .contact .contact-wrapper a {
+    font-size: 18px;
+  }
+
+  .contact .abstract-circle {
+    display: none;
   }
 }
