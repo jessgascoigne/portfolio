@@ -612,15 +612,20 @@ footer .social-link:hover {
     grid-template-columns: repeat(auto-fit, 325px);
     grid-gap: 50px 75px;
   }
-  .contact h1 {
-    font-size: 30px;
-  }
 
   .contact-me {
     padding: 120px 20px 60px;
   }
   .contact-wrapper {
-    padding: 20px;
+    padding: 40px 30px;
+  }
+  .contact h1 {
+    font-size: 26px;
+  }
+
+  .contact h4 {
+    font-size: 20px;
+    font-weight: 500;
   }
   .contact .contact-wrapper a {
     font-size: 18px;
