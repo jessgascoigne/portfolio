@@ -19,20 +19,17 @@ nav .container-fluid {
   margin: 0 75px;
 }
 .navbar-nav .nav-link.active,
-.navbar-nav .nav-link:hover {
+.navbar-nav .nav-link {
   color: var(--primary-color);
 }
 
-.navbar-nav .nav-link {
-  color: var(--tertiary-color);
-}
-nav img {
-  width: 70px;
+nav .active,
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
 }
 
-nav .active,
-nav li:hover {
-  text-decoration: underline;
+nav img {
+  width: 70px;
 }
 
 body {
@@ -434,7 +431,7 @@ footer .social-link:hover {
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
-.contact a:hover {
+.contact-me a:hover {
   color: var(--tertiary-color);
 }
 
