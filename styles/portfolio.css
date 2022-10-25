@@ -105,6 +105,7 @@ p {
 .tertiary-link {
   border-radius: 4px;
   box-shadow: var(--btn-shadow);
+  display: inline-block;
   font-size: 20px;
   padding: 10px 20px;
   text-decoration: none;
